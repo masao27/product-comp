@@ -1,0 +1,14 @@
+    <ul class="collection">
+    <% products.each do |product| %>
+      <li class="collection-item avatar">
+        <img src=product.imgurl alt="" class="circle">
+        <span class="title">product.productname</span>
+        <p id=price>product.integer</p>
+        <p id="Remote" class="left-align">
+           product.description <br>
+           product.storename
+        </p>
+        <%= link_to product.storeurl %>
+      </li>
+    <% end %>
+  </ul>

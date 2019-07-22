@@ -1,0 +1,5 @@
+$('#Remote').empty();
+<% @items.each do |item| %>
+  $('#Remote').append("<p><%= "#{item['itemName']}"%></p>")
+  $('#Remote').append("<p><%= "#{item.price}円" %></p>")
+<% end %>

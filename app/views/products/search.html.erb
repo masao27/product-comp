@@ -1,0 +1,147 @@
+<!doctype html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<header>
+  <h1>簡易価格比較サイト</h1>
+</header>
+<body>
+
+  <div class="slider">
+    <!--ulタグにslidesをつける-->
+    <ul class="slides">
+      <li>
+        <!--画像を置く-->
+        <img src="https://lh3.googleusercontent.com/qkYjBIGgPW2y2-bI1-prkrROlulCntdoRnxJKjJsC4OKigJklBqlBcWvw85kfPP7q73_YpfjtTCkd5ur_p4ot8D51e9z4WUXxZP0tJy2b7iw49aYNgLcmw_TllHKoLuRBawrZZc2cQxxm606_tykt5UqpaYi13MhGzc0I9WnjFW5yWlThrc2GilSp0YDnu3j8FA87huu45LKtzg_-L3rDrTzSihpzYk8-6FeJijwrrPk02hJot5YbWMfzx5kSlrn-4mLSrLhcHsRWUsfOXJLpOKU60cYye6Z-akCts5_z5Zl7so1on0HOMCvBLcRiIXjNquF4OnSsak1oJW3GPNWKk3vMzARL1bVkN41gfKR0p_t3cpovVuGm_Yeq0_22gc4NOwXrEuqdFequH8nMRt8hiFKyQvpod0dIDLUAgm6tVCJqRLpZog_ngqfzPqWy3mKXJmfo2TkNnviBdKvgHDntRwoEuDE5lCyF8G_zwwAnkcnr1T9VPiov5aOpzVU3HYrp4FerFuqx9QPcV4c0SorQRjukmne8gYkIiNC1CnA8CtRuU0OP8q8nkMbeMy60mbS4IAyBWkRpMOIfw40tZyGdehQfazWp6H49oJ93mzvVXviW5icLN-TMea78tKj91fAfsnLXxp-B8EJDTtdhAZ3n_BtmYDEJlc=w922-h615-no">
+        <!--captionクラスをつけた要素の中身が文字として表示される-->
+        <div class="caption center-align">
+          <h3 class="grey-text text-lighten-3">Fashion apparel</h3>
+        </div>
+      </li>
+      <li>
+        <img src="https://lh3.googleusercontent.com/PCFPCgF7wd3WVB90sM2yEMkVv0-Z5TcVde78betPg9dgFbOd_jwBFA_-HajG5B8DgRZASU4qHhwgAGxEGi8mCpf-lLJRgk4tIAQ-PuM-XlrVAP8K_j1u60B92-6zRfuqRk9pj-XQ1U-g0qLBlQWA6Ky5AomsvHxw1MtNUzQMtZ7xmlbl4vjKVZ1zRkLHK8jfXlA8yu9vc9KzKWbE9ySWyPNFswYe81LOt9DN4LL_FYoT4d5RqUmPbT4f0Tf7RvbfjXLU0H56fmCbPjqfFewOnekaswU5d8UJJuUyAPQsd_PWm9Nn3m1dVl-gXZE7keRo6VSTKuLNJM-H5vU6y979_wm9DfygzdJ_M1wglYhfOV4D2Dpxv_kKMF0t7cP6bZhbWvKNssPDW9QIcXOhfk885SH2HM8lqJ7t0ZM-yCu11EJLmgpACNMcuhLG8cimQh0-GDiOThPqh73B-gKvlW3ba6ukk_k5lyZ2hXEWwlh_hi_jGO5Jua81RSwX_AwUkFYN7wAktdHvDtohjJgJWK4BrjjkDSonRBPDOBzvYVBanrXQ5FtPrZBG4u97_cXuSIRAjXZYRaBGwEG0Cg5UzaMz8Pigak6O-wKfCI3wqQ8KzUOMefNouPxawv2u_XZO0wq5RuIF3ld8p_cFmFrPx0m_SW62Cqe9siE=w675-h450-no">
+        <div class="caption left-align">
+          <h3 class="red-text text-lighten-1">PC & Smartphone & Tablet</h3>
+        </div>
+      </li>
+      <li>
+        <img src="https://lh3.googleusercontent.com/sBJ74mzlnJTqvfUiGbbuyFi7LN-8_usx6WPBjIaRmiJ7EVNjy-yxrz3vtNKqcQNwQahVIT2dZKvQPIDMcI717YYLXCyVy5j8q24aw7YGpR6dJeG0m6KyyvCVdIF1gSkCq6KWZs37BDBU8CVICPp1Cb-ByFNuwBFQ8NPFLYa5CPO1PxjfyM-OIsyleNQA0V345z0o-ihfZ68Dmlr6I4UZXsmgRf2PQbB98pQuNwiu88lGcjleWd-IXnslA_XxMeb4GLdVMRL0n_UZX7R3Z9dB6WAfLu3Fk4iP_T98j0_-kiUc3fcP0KT7zHAkFU9-hLfm3z4iZyogtwBsBpE8nAuHaFYtbWOLeH5Laz7LuUyv0gIHP4UfVTVKdLH2_VjoXBXQvdAV9853Rg9iarZedRPGFxlZP_zs4dGtMUYJPoXEGReIXcwtCGNvvVybiDfhTd8SkHLoUlGp55GTLhRLXbxAf8Swa1jkTDqxjMTMgmR_Ch5zvGucUce336hhF69Z8hd8jMange91yf8Oq1QcMuxMjkmqVedkGQg2ozH6xqMqiUsjFKbxi-9RmOGbWkRNpJEoCymi3Wkus44vm1x1LP9J7dULwPkvTQlAYRZ_E16wRTkYH-NqQmp5mwyMXxV13j-WJopypr22MJdXURMiL11EazkniNjz06Q=w665-h388-no">
+        <div class="caption right-align">
+          <h3 class="green-text text-lighten-1">Outdoor goods</h3>
+        </div>
+      </li>
+      <li>
+        <img src="https://lh3.googleusercontent.com/IsRY8NZTiMQw22xqdwacAt9QuZvJCJI4jWl3cHaRqgIMF6-t6bUWz5iuRFcJqjU4V3RYkbGQ8INTrMJpQYjLpImw9hBQbVSad_5Fj7F-2VGAcZ19Aqd1vP6gSEAQBYqJawjeBO9yagkfm16mDOoH0mEAcaPGn29luRSWb9VmXCINaVY1kxoHUn4t2BOaCh2bRfQCap1AeL36KizTd3OBHTQDajspzekBjNnef-QPoBPf89towmNOE75yfRR4UXFdlNtBvFTQQxwoU_YHZnKlV66hAETHnBywLZr_H8-PdsXwnCR7l1refJBuTU18tB2fJhF78k85MFC2Zr48oLiHU2ehucvEGysQUJOyAKq2h-7pCIZ8u4GYpoA4KuTHjM5lVWXwOIA5Aq4dH29ws46TfzqXLH2EmdJ4Zxz3lZ31VIzfxYM-fy9JS8mtQzz6DzvWUkhhoqhmCckdlHzsM4oX0GlfNmzHmhmjTqiHCxRmTbbHkcdl4Qz5aL2Kx3_VTAKtG0-LLCTo0e_hmXZWtkYFzvbVzlOEHFUWxwitqv-J6kL2ASuyor_uFdQ1j0CeEkEICuL8kL3C2SjatzdBsWm2IfY33kFKw_o7cfzg2WL0TqDSAaXrQB3II1jPhm6aZOIGKLqOlyb0juqdjBx-YlJqNswr3WAykOQ=w300-h168-no">
+        <div class="caption center-align">
+          <h3 class="blue-text text-lighten-1">Car supplies</h3>
+        </div>
+      </li>
+      <li>
+        <img src="https://lh3.googleusercontent.com/QcWZgATYDu5yppGzUJrf9pcIKtOiXKIl_MO5BG72evvAUgrROVpJQGMqFlaucSfRcSnbCR5cxvD8Ysy8QI9OJtzrTVcNVyGOKHR8_Cpe7IfV_Bpt2XPh1-dS0vM1ORmjuo7nfiBkBglIgH6psMlDDFoghujnbydGb1BHvTfdqqNCUrY3fpH9HBN-UXHhaT7QdW2frGTMEfZVLFuTlFUscT2lSTLnv5N8wxmF65f5AGtQre-ZzbXeE4vF6v42iKW0G4akRfhExF77Y_-gYzigobQ_I5B8TYAYaWlmuHZ_U9dS6VenfIQGKDpjYrCaNWHml6YHATRKv5l-CEjuhMAIeb5p0KdDzfZtMneljROgz0YewZ_xy6Tykzqu4aWVxCZt_L8MznFipwg6MvxidSZaqF6Yh6c8PlCtmv9iMb3KIR9jfat5erRa1OLN7JFIoZQqTTDXp5SKdTP25bB8nCMj6DAFuz4B6BiJinAIvh3pL6L5D2jYryDHAFU2d5rtqYl6syD_WGjsr1Pq_iL1w-Dlu607itwxrzlD-zJYXeskFtrf1GsalCddhS_B25IfmTzsckbzz99MzWNDpUzahFPyfNpSkzWUDbnFV4MKwRl9MXplbZ9yfJd6d-8ql3jl5YafGbmgpp4yXzZ8rds0i-bKEs7IEXLa644=w750-h530-no">
+        <div class="caption left-align">
+          <h3 class="grey-text text-lighten-5">Cosmetics</h3>
+        </div>
+      </li>
+      <li>
+        <img src="https://lh3.googleusercontent.com/5yS40YZGvxMImzuqUenS8lGly2ijlTA6nQR6te5KMSxad8bdt5tDvzfBUGu0-1lA1WatVm4RE3BOvMdXn3ggD2judkyGjpRsExbtCXz2-PGH0IN2PARhR7VPxNI0gHnu18L6nyJeNx-9jhA8EZdXq9B1VdmxzB87bCMqoUL7xMnxHoH6HtFNaj0KWRCRyks6KxvAU7p2VDaZbjMc_Z08rOEXdXkOQlKkkw0PYDnggjAMHg5yMr8aVHahh4LzOnv9cJHA_qnc-fHcIYhQRjIZ-v2cqIC8Go2QFVafrgeUd1yRob0apuVlWoFMOAJO1a9Ganr2hTVYkVO-UypEfTuvhwffdUDMlvz0wVBdQlpLaGsqXW0ZLR0uZCqDQxw8ozQY2qO0l1Ao_eOdlVPCoF83pr83qfrHus9ZN_bSyY5JoObQjeAdudF-TXLlMJeJ_CBbM9UiAF_mzcOHzK-g7TkwC1dkirAKExeWqhA8caiUC8CYKR_lCSJKo_d8n2ryWWopOW1neQTqkcdB31u8LwbPlBOYl4aPiNDkyOjAwZbUZmSr6KXqQBIz7W1YhQQaq77SzkFXxRZOzxhiKlM52K-ZlHhUv65G9b3pJNiAmymQA8aS4nNswA0GNCR7TQeJI8k57BF0DiiiGjt_UVNfUbx8qvpE7WXb4ZE=w287-h175-no">
+        <div class="caption right-align"> 
+          <h3 class="grey-text text-lighten-5">Health foods</h3>
+        </div>
+      </li>
+      <li>
+        <img src="https://lh3.googleusercontent.com/8XA2r01QS7ee5PFt0sNPZ6RWeswCAvgbsfHFONVCHVgTtYv9zPpYQFhHMaavmlGp3rcb1rwxtAwFapPyk-d94JyaZgrgX7JQosrKV081I7_7W_k-PQl5-shpQTMGgC0m1d-pnHY2TNWLYq5x_j3lRWwy0yX3Wd63hdWdXBm8T1DGP0yR_jzBWTvb6M99L8YakmRTKvcI6YS2i_dmyZ0r9Eq7zvrg3rTGhfvS5UKU-D69Ot-W2UU2C7yQwCQ-huNonXkeW89F_tghTJZ6MDZfNeLM4-1SnTm3_lPoOXawMwFiisYxuUUKGhnLX0xiA2dZ7oABhIpAFPcIDd9yBgzO4U-HkUmG5I0ZuI29Q0DivBSQjN2ViyCtmgfAt3F6mAcx0ssloyTAC8npIAG2jEDp6CZLFdWh4xc1LeAfP0rRl78XtkvJ5Va8XyQtcPhWUKbZODfa2RPR5KB0aq8ngx6PgvkXxBWiQe00QUXWZai4YCPhHDkbKFBCKcxIhXdYZupmCM6VN9egG3Q1T63tETtqd1GZ4nJDR2R_tzbE4A75X81i2X0nhfllxqwOf8FEbz7ribjP6qCDYMzoPGdPk6J-us7fDwY_XxT8RdkY-KWPB7W_xrzg5bZTfkoc8SeP-mDaZwrQw-wRGoX3TE2XkOZtMlBPtYP2fo0=w540-h330-no">
+        <div class="caption center-align">
+          <h3 class="black-text text-lighten-5">Fresh Foods</h3>
+        </div>
+      </li>
+      <li>
+        <img src="https://lh3.googleusercontent.com/IMNdSKHOds3OsI5VZ1QuVshHZFloDX5ZgUwTgpyzIm7BpHuH7HcFFoJOyCca0niVy7TCMjCnPtC1y4Lt9pcR3CO5kRUb5HHTGtqCSaa3qcMHP5t24UJ77FaaiileJn11Rr63SmcxQSOEbgq2HNI60rjCDWERWyEHK61tyBPgw-tNyOi64DWJcMfbrxPr_-oIgZ9AKs0uTaPSi07c93LmFO3ZNn57pxjVU1LwYzbs9qe5TFakYT0mioFcfjT0Y-p1NGsk8lMscQC6-QWNKRn8QoHIN8ePjUk3Sf-XTi6fwukWgeItU7ViHm7N9eAcdyA-DogS64WkOgXkIPwZ59IlhYTxFmQEa8CW63bOwwRtVqFTX51Cn78rTioBIVTCbah-avwlCGMDeYeKcBY-dYUxw615paXbzgx3iIKcwnnyZKdm5KfrPBf-HDxGOKD70vnH2_O9WZrFYs54-OTl6IJG2h369w7WvytevDIuahlKVwQoedQOk99nkiw8o_k4qcdYLKtE6N2_wV6Sg0_qS5xNYVgEz8rv1I6znKlkS0RMvfK4Tj9KOuNm0C_b8LBBAhH6uPZh0r8R0emn_KPz21FtvCG9uuII0xvNjK2siqOQXEG7ONR7s_Ng5HPCgPdbEUahdgFYXJv_5k-DDUhUnBCHvfq3I-Qb_Vg=w275-h183-no">
+        <div class="caption left-align">
+          <h3 class="grey-text text-lighten-5">Consumer electronics</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <%= form_tag :products_search, method: :get do %>
+  <div class="row">
+    <div id="search-box">
+      <h5 class="col s4 right-align"><p id="label"><%= label_tag :keyword, 'キーワード検索' %></p></h5>
+      <div class="col s4"><p id="text"><%= text_field_tag 'keyword', params[:keyword] %></p></div>
+      <div class="col s4 left-align"><h5 id="butoon"><%= submit_tag('検索') %></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="container pt20 col s5 right-align">
+      <p>並び変え： 
+        <label class="label-radio form-inline">
+          <%= radio_button_tag(:order_radio, "0", @oradio1) %>
+          <span class="lever">指定なし</span>
+        </label>
+        <label class="label-radio form-inline">
+          <%= radio_button_tag(:order_radio, "1", @oradio2) %>
+          <span class="lever">安い順</span>
+        </label>
+        <label class="label-radio form-inline">
+          <%= radio_button_tag(:order_radio, "2", @oradio3) %>
+          <span class="lever">高い順</span>
+        </label></p>
+    </div>
+    <div class="container pt20 col s5 right-align">
+      <p>表示件数： 
+        <label class="label-radio form-inline">
+          <%= radio_button_tag(:count_radio, "10", @cradio1) %>
+          <span class="lever">10件</span>
+        </label>
+        <label class="label-radio form-inline">
+          <%= radio_button_tag(:count_radio, "30", @cradio2) %>
+          <span class="lever">30件</span>
+        </label>
+        <label class="label-radio form-inline">
+          <%= radio_button_tag(:count_radio, "50", @cradio3) %>
+          <span class="lever">50件</span>
+        </label></p>
+    </div>
+  </div>
+<% end %>
+
+<div class="container">
+  <% if (@products == nil) %>
+    <h5 class="col s5 center-align red-text"><%= @noitem_message %></h5>
+  <% end %>
+  <% if(@products != nil) %>
+    <% @products.each do |product| %>
+      <div class="card horizontal">
+        <div class="card-image">
+          <%= image_tag(product.imageurl) %>
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+          <h5><%= product.prodname %></h6>
+          <p><font size="5" color ="black">価格：</font><font size="6" color ="red"><%= product.price.to_s(:delimited) %></font><font size="5" color ="red">円</font></p>
+          <p class="left-align">
+            <%= product.description %>
+          </p>
+          </div>
+          <div class="card-action">
+            <p>店舗名</p>
+            <font size="5"><%= link_to "#{product.storename}",product.storeurl, class:   "blue-text text-lighten-1" %></font>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <%= paginate(@products) %>
+  <% end %>
+</div>
+
+  <footer>
+    <address>Copyright(C)2019 mk,Allright Reserved.</address>
+  </footer>
+</body>
+</html>
